@@ -1,0 +1,51 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node build/index.js",
+    "dev": "nodemon src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ton/crypto": "^3.3.0",
+    "@ton/ton": "^15.1.0",
+    "@trustwallet/wallet-core": "^4.1.5",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/helmet": "^4.0.0",
+    "@types/http-status-codes": "^1.2.0",
+    "@types/nanoid": "^3.0.0",
+    "@types/text-encoding": "^0.0.39",
+    "@types/uuid": "^10.0.0",
+    "api": "^6.1.2",
+    "axios": "^1.7.9",
+    "bcryptjs": "^2.4.3",
+    "bitcoinjs-lib": "^6.1.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "hardhat": "^2.22.9",
+    "helmet": "^7.1.0",
+    "http-status-codes": "^2.3.0",
+    "nanoid": "^5.0.7",
+    "protobufjs": "^7.4.0",
+    "text-encoding": "^0.7.0",
+    "ton": "^13.9.0",
+    "ton-crypto": "^3.2.0",
+    "tonweb": "^0.0.66",
+    "tonweb-mnemonic": "^1.0.1",
+    "uuid": "^10.0.0",
+    "web3": "^4.12.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}

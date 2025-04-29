@@ -1,0 +1,53 @@
+{
+  "vsize": 140,
+  "locktime": 0,
+  "txid": "6338c7c77149ff1467b7441b497492875a54bc662f4392a4698be3a654e4f712",
+  "weight": 560,
+  "confirmations": 115,
+  "version": 1,
+  "vout": [
+    {
+      "scriptPubKey": {
+        "address": "bc1qx4l0z2wepepa3dd9vuukcvqqc30q5m0r9x5rke",
+        "asm": "0 357ef129d90e43d8b5a567396c3000c45e0a6de3",
+        "hex": "0014357ef129d90e43d8b5a567396c3000c45e0a6de3",
+        "type": "witness_v0_keyhash",
+        "desc": "addr(bc1qx4l0z2wepepa3dd9vuukcvqqc30q5m0r9x5rke)#48mfe9w6"
+      },
+      "value": 1.0E-5,
+      "n": 0
+    },
+    {
+      "scriptPubKey": {
+        "address": "bc1q6ll0vt92tm3tjqhurrqhhvf9vs9s0j3pdqn3ce",
+        "asm": "0 d7fef62caa5ee2b902fc18c17bb125640b07ca21",
+        "hex": "0014d7fef62caa5ee2b902fc18c17bb125640b07ca21",
+        "type": "witness_v0_keyhash",
+        "desc": "addr(bc1q6ll0vt92tm3tjqhurrqhhvf9vs9s0j3pdqn3ce)#6ufzx0ag"
+      },
+      "value": 2.1883E-4,
+      "n": 1
+    }
+  ],
+  "blockhash": "0000000000000000000026703d7fc7e2c7d386ecb67708f651c3ae7994156119",
+  "size": 221,
+  "blocktime": 1733233029,
+  "vin": [
+    {
+      "sequence": 4294967295,
+      "scriptSig": {
+        "asm": "",
+        "hex": ""
+      },
+      "txid": "8a1609b4eb880a1b08628f17875bf33e999b1e1f100786720b22d1923d68d507",
+      "txinwitness": [
+        "30430220403b5f95f230d0014f17d41f4590c7f870970be1de3062cfeb00c1627222e23e021f54bb52e6ce0a5cd1e46cda647fbf43602bd83d2296ae1b1463c6f4796df8c701",
+        "02895c73e62fb848838dc869cde0ccca3d223fd41e3fcbc24f21206ea918ef5473"
+      ],
+      "vout": 1
+    }
+  ],
+  "hex": "0100000000010107d5683d92d1220b728607101f1e9b993ef35b87178f62081b0a88ebb409168a0100000000ffffffff02e803000000000000160014357ef129d90e43d8b5a567396c3000c45e0a6de37b55000000000000160014d7fef62caa5ee2b902fc18c17bb125640b07ca21024630430220403b5f95f230d0014f17d41f4590c7f870970be1de3062cfeb00c1627222e23e021f54bb52e6ce0a5cd1e46cda647fbf43602bd83d2296ae1b1463c6f4796df8c7012102895c73e62fb848838dc869cde0ccca3d223fd41e3fcbc24f21206ea918ef547300000000",
+  "time": 1733233029,
+  "hash": "5cf8c0fb72ec09914fb5dc0d15a545ee87be76bed26105450b5b9fafa90d533b"
+}
